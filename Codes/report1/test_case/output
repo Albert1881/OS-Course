@@ -1,0 +1,22 @@
+[t]
+/mnt/hgfs/win_share/test_case/t/*
+/mnt/hgfs/win_share/test_case/t/foo
+/mnt/hgfs/win_share/test_case/t/l
+
+[*]
+/mnt/hgfs/win_share/test_case/t/*/*
+/mnt/hgfs/win_share/test_case/t/*/a.txt
+
+[foo]
+/mnt/hgfs/win_share/test_case/t/foo/bar
+
+[l]
+
+[bar]
+/mnt/hgfs/win_share/test_case/t/foo/bar/*
+
+[*]
+/mnt/hgfs/win_share/test_case/t/foo/bar/*/*
+
+[Directories Count]:5
+[Files Count]:3
